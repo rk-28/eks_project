@@ -1,4 +1,4 @@
-@Library('Shared') _
+s@Library('Shared') _
 
 pipeline {
     agent any
@@ -115,7 +115,7 @@ pipeline {
                         manifestsPath: 'kubernetes',
                         gitCredentials: 'github-credentials',
                         gitUserName: 'Jenkins CI',
-                        gitUserEmail: 'misc.lucky66@gmail.com'
+                        gitUserEmail: 'jenkins@gmail.com'
                     )
                 }
             }
